@@ -728,7 +728,8 @@ h3 {
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  border-color: var(--ocean);
+  background-color: var(--ocean);
+  border: none;
 }
 
 .modal-close-btn-icon {
