@@ -148,8 +148,7 @@ h3 {
   letter-spacing: 0.02em;
   color: var(--navyblue);
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow var(--transition), border-radius var(--transition);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
@@ -263,13 +262,11 @@ h3 {
   border-radius: 4px;
   cursor: pointer;
 
-  transition: color var(--transition),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
 .button:focus {
-  color: var(--white);
   background-color: var(--ocean);
 }
 
